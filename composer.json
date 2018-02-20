@@ -5,8 +5,7 @@
     "require": {
         "php": ">=5.4.0"
     },
-    "minimum-stability": "stable",
-  "  prefer-stable": true,
+    "minimum-stability": "dev",
     "version": "1",
     "autoload": {
         "files": [],
