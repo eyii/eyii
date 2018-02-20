@@ -5,7 +5,8 @@
     "require": {
         "php": ">=5.4.0"
     },
-    "version": "dev-master",
+    "minimum-stability": "devlop",
+    "version": "2",
     "autoload": {
         "files": [],
         "psr-4": {
@@ -18,6 +19,4 @@
     "config": {
         "process-timeout": 1800
     }
-
-
 }
