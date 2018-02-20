@@ -1,0 +1,31 @@
+{
+    "name": "eyii/eyii",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+         "yiisoft/yii2": "2.0.13.1"
+    },
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+     "autoload": {
+        "files": [],
+        "psr-4": {
+            "eyii\\": "",
+            "addon\\": "../../../addon/"
+        }
+    },
+
+    "require-dev": {
+        "yiisoft/yii2-debug": "2.0.13",
+        "yiisoft/yii2-gii": "2.0.6"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
