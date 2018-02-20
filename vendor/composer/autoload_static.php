@@ -6,26 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit6f71d3c4de6dfc164259d4a26a35c0fa
 {
-    public static $files = array (
-        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
-        'y' => 
-        array (
-            'yii\\gii\\' => 8,
-            'yii\\debug\\' => 10,
-            'yii\\composer\\' => 13,
-            'yii\\bootstrap\\' => 14,
-            'yii\\' => 4,
-        ),
         'e' => 
         array (
             'eyii\\' => 5,
-        ),
-        'c' => 
-        array (
-            'cebe\\markdown\\' => 14,
         ),
         'a' => 
         array (
@@ -34,54 +18,13 @@ class ComposerStaticInit6f71d3c4de6dfc164259d4a26a35c0fa
     );
 
     public static $prefixDirsPsr4 = array (
-        'yii\\gii\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-gii',
-        ),
-        'yii\\debug\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-debug',
-        ),
-        'yii\\composer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-composer',
-        ),
-        'yii\\bootstrap\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2-bootstrap/src',
-        ),
-        'yii\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/yiisoft/yii2',
-        ),
         'eyii\\' => 
         array (
             0 => __DIR__ . '/../..' . '/',
         ),
-        'cebe\\markdown\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/cebe/markdown',
-        ),
         'addon\\' => 
         array (
             0 => '/addon',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'H' => 
-        array (
-            'HTMLPurifier' => 
-            array (
-                0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
-            ),
-        ),
-        'D' => 
-        array (
-            'Diff' => 
-            array (
-                0 => __DIR__ . '/..' . '/phpspec/php-diff/lib',
-            ),
         ),
     );
 
@@ -90,7 +33,6 @@ class ComposerStaticInit6f71d3c4de6dfc164259d4a26a35c0fa
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit6f71d3c4de6dfc164259d4a26a35c0fa::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit6f71d3c4de6dfc164259d4a26a35c0fa::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6f71d3c4de6dfc164259d4a26a35c0fa::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }
