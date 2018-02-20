@@ -6,6 +6,7 @@
          "yiisoft/yii2": "2.0.13.1"
     },
     "license": "BSD-3-Clause",
+      "version": "1",
     "minimum-stability": "stable",
      "autoload": {
         "files": [],
